@@ -1,7 +1,11 @@
 # PHP
 
-chmod +x xampp-linux-*-installer.run
-sudo ./xampp-linux-*-installer.run
+chmod +x xampp-linux-x64-8.2.4-0-installer.run
+sudo ./xampp-linux-x64-8.2.4-0-installer.run
+
+go to the xampp control panel and start the apache server
+
+on the browser type: localhost/hello.php
 
 php documentation: https://www.php.net/manual/en/
 
