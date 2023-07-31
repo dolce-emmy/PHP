@@ -16,12 +16,17 @@ $price = 12;
 $pi = 3.142;
 
 //booleans
-$loggedIn = true;
+$logged_in = true;
+// best practice in php is to use lowercase for true and false like this $logged_in = true;
 
 //null
-$noValue = null;
+// null represents a variable with no value
+$no_value = null;
 
+// notice that we don't have to declare the type of variable in php like we do in javascript because php is a loosely typed language where are javascript is a strongly typed language
+// this means that php is easy to learn and use but it is also easy to make mistakes if you are not careful
 
+/
 //var_dump is a function that prints out the type of variable and the value of the variable in the browser
 var_dump($message);
 var_dump($price);
