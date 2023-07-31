@@ -12,10 +12,23 @@ var_dump($count - $size);
 var_dump($count * $size);
 var_dump($count / $size);
 
-// oprators can be used on strings value
+// oprators can be used on strings value : 
+//---------------------------------------
 
 $message = "Hello";
 $name = "John";
 
 // we can use the concatenation operator to join two strings together using . and " " to add a space between the two strings
-2echo $message ." ". $name;
+echo $message ." ". $name;
+
+
+
+//Type Juggling and casting are two ways to convert a value from one type to another:
+//------------------------------------------------------------------------------------
+
+// Juggling is when php automatically converts a value from one type to another in our case the price was converted from a string to a number automatically.
+// now price type converted to an integer
+$price = "150";
+$quant = 3;
+$price = $price * $quant;
+var_dump($price);
