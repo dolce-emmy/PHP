@@ -31,4 +31,36 @@ echo $message ." ". $name;
 $price = "150";
 $quant = 3;
 $price = $price * $quant;
+log("price is now $price");
 var_dump($price);
+
+
+
+// for Boolen values we have logical operators like and, or,  not,  xor
+//----------------------------------------------------------------------
+
+$is_editor = true;
+$is_admin = false;
+
+var_dump($is_editor);
+var_dump(! $is_editor); // here we are negating the value of $is_editor
+
+// we can use the and operator to check if both values are true
+var_dump($is_editor and $is_admin);
+
+//output: bool(false)
+
+// we can use the or operator to check if one of the values is true
+var_dump($is_editor or $is_admin);
+
+//output: bool(true)
+
+
+// we can use the xor operator to check if one of the values is true but not both only one of them
+var_dump($is_editor xor $is_admin);
+
+//output: bool(true) because only one of the values is true
+
+// we can use the && operator to check if both values are true
+
+
