@@ -12,14 +12,14 @@ var_dump($count - $size);
 var_dump($count * $size);
 var_dump($count / $size);
 
-// oprators can be used on strings value : 
-//---------------------------------------
+// String operators: 
+//-----------------
 
 $message = "Hello";
 $name = "John";
 
 // we can use the concatenation operator to join two strings together using . and " " to add a space between the two strings
-echo $message ." ". $name;
+echo $message ." ". $name . " ";
 
 
 
@@ -31,7 +31,7 @@ echo $message ." ". $name;
 $price = "150";
 $quant = 3;
 $price = $price * $quant;
-log("price is now $price");
+
 var_dump($price);
 
 
@@ -61,6 +61,6 @@ var_dump($is_editor xor $is_admin);
 
 //output: bool(true) because only one of the values is true
 
-// we can use the && operator to check if both values are true
+
 
 
