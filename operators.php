@@ -60,7 +60,3 @@ var_dump($is_editor or $is_admin);
 var_dump($is_editor xor $is_admin);
 
 //output: bool(true) because only one of the values is true
-
-
-
-

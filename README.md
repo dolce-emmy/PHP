@@ -7,5 +7,8 @@ go to the xampp control panel and cofigure the apache settings
 
 on the browser type: localhost/hello.php
 
+on the terminal type: sudo /opt/lampp/lampp startapache
+
+
 php documentation: https://www.php.net/manual/en/
 
